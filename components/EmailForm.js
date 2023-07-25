@@ -7,7 +7,7 @@ const EmailForm = () => {
 
   const handleFormSubmit = event => {
     event.preventDefault();
-    // Your form submission logic here
+
     setIsSubmitted(true);
   };
 
