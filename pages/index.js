@@ -11,10 +11,13 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
+        <div className='headerContainer'>
+          <h1 className="title">Kinetic Asset</h1>
+          <p className="description">
+            Enabling access to illiquid assets
+          </p>
+        </div>
+        
       </main>
 
       <Footer />
